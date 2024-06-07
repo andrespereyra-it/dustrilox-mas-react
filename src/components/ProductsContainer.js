@@ -75,7 +75,7 @@ export const ProductsContainer = () => {
                 </div>
             </section>
 
-            <hr />
+            {/* <hr /> */}
 
             {/* <section className="contact__area-2">
                 <div className="container">

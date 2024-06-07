@@ -2,8 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = function override(config, env) {
-  // Cambia el punto de entrada para cart.js
-  config.entry = path.resolve(__dirname, 'src/cart.js');
+  // Punto de entrada para index.js
+  config.entry = path.resolve(__dirname, 'src/index.js');
 
   // Ajusta el output para asegurarte de que los archivos se generan correctamente
   config.output = {
